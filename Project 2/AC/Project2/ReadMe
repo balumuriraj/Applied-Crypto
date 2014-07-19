@@ -1,0 +1,10 @@
+In the project folder execute the following commands
+
+	1. g++ -c BigInt.cpp RSA.cpp
+	2. ar rc libRSAutil.a BigInt.o RSA.o
+	3. ranlib libRSAutil.a
+	4. g++ Project2.cpp -L. -l RSAutil -o output
+	5. ./output
+	6. Output should be displayed
+
+
